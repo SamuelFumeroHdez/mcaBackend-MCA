@@ -27,7 +27,7 @@ components:
   schemas:
     RelatedGameSagas:
       type: array
-      description: 'List of related game saga IDs to a given one ordered by relevance'
+      description: 'List of related game IDs to a given one ordered by relevance'
       minItems: 0
       uniqueItems: true
       items:
